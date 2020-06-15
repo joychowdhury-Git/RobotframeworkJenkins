@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200615 21:15:27.144" rpa="false">
+<suite id="s1" name="Demo" source="D:\RobotframeworkJenkins\Testcase\Demo.robot">
+<test id="s1-t1" name="TC01_Open the browser">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://www.google.com</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20200615 21:15:28.084" level="INFO">Opening browser 'Chrome' to base url 'https://www.google.com'.</msg>
+<status status="PASS" starttime="20200615 21:15:28.075" endtime="20200615 21:15:37.005"></status>
+</kw>
+<status status="PASS" starttime="20200615 21:15:28.075" endtime="20200615 21:15:37.011" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20200615 21:15:27.155" endtime="20200615 21:15:37.016"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Demo">Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
